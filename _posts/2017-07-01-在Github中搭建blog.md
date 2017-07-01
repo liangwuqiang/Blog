@@ -62,9 +62,9 @@ categories: github
 
 ![](../images/8bd094c8.png)
 
-![]({{ "/images/e2dd0fdc.png" | prepend: site.baseurl }})
+![]({{ "/images/8bd094c8.png" | prepend: site.baseurl }})
 
-![](../images/8bd094c8.png)
+![](../images/1e2ecc7e.png)
 
 ![]({{ "/images/1e2ecc7e.png" | prepend: site.baseurl }})
 
