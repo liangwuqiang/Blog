@@ -6,14 +6,176 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 01 Jul 2017 18:11:15 +0800</pubDate>
-    <lastBuildDate>Sat, 01 Jul 2017 18:11:15 +0800</lastBuildDate>
+    <pubDate>Sat, 01 Jul 2017 22:21:44 +0800</pubDate>
+    <lastBuildDate>Sat, 01 Jul 2017 22:21:44 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Django快速参考</title>
+        <description>&lt;p&gt;本文参考：http://www.cnblogs.com/feixuelove1009/p/5823135.html&lt;/p&gt;
+
+&lt;h1 id=&quot;django&quot;&gt;Django快速参考&lt;/h1&gt;
+
+&lt;h2 id=&quot;django-1&quot;&gt;1.安装Django&lt;/h2&gt;
+
+&lt;p&gt;sudo apt install python3-pip&lt;/p&gt;
+
+&lt;p&gt;pip3 install django&lt;/p&gt;
+
+&lt;h2 id=&quot;project&quot;&gt;2.创建Project&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/44b9cf42.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/44b9cf42.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;app&quot;&gt;3.创建App&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/788fbf30.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/788fbf30.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;4.设置入口&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/b55f603e.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/b55f603e.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;5.响应字符串&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/9c8e5314.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/9c8e5314.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;web&quot;&gt;6.启动web服务&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/93e91e8d.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/93e91e8d.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/ffc1c44c.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ffc1c44c.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/54b49a79.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/54b49a79.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;终端停止服务：Ctrl+Shift+C&lt;/p&gt;
+
+&lt;h2 id=&quot;html&quot;&gt;7.响应html&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/90e317f6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/90e317f6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/e979a32f.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/e979a32f.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/93775d28.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/93775d28.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;python3 manage.py runserver 127.0.0.1:8000&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/da906eae.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/da906eae.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;终端停止服务：Ctrl+Shift+C&lt;/p&gt;
+
+&lt;h2 id=&quot;static&quot;&gt;8.static目录&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/bbf668b8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/bbf668b8.png&quot; alt=&quot;&quot; /&gt;
+&amp;gt; 用于存放CSS,JS,插件等&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/9e4c463f.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/9e4c463f.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;html-1&quot;&gt;9.接收html表单&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/e9fc889b.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/e9fc889b.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/d4d91a14.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/d4d91a14.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/aa64f39b.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/aa64f39b.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;python3 manage.py runserver 127.0.0.1:8000&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/056a1d0f.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/056a1d0f.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;终端停止服务：Ctrl+Shift+C&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;10.数据交互&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/182b8fae.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/182b8fae.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/12f587c8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/12f587c8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;python3 manage.py runserver 127.0.0.1:8000&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/78a0b160.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/78a0b160.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;终端停止服务：Ctrl+Shift+C&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;11.数据库&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/b1404b63.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/b1404b63.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/ec71b316.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ec71b316.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/118536e9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/118536e9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/5e3aed93.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/5e3aed93.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;python3 manage.py runserver 127.0.0.1:8000&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/5d0682e3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/5d0682e3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;终端停止服务：Ctrl+Shift+C&lt;/p&gt;
+
+&lt;p&gt;(End)&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Jul 2017 22:17:46 +0800</pubDate>
+        <link>http://yourdomain.com/python/2017/07/01/Django%E5%BF%AB%E9%80%9F%E5%8F%82%E8%80%83.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/python/2017/07/01/Django%E5%BF%AB%E9%80%9F%E5%8F%82%E8%80%83.html</guid>
+        
+        
+        <category>python</category>
+        
+      </item>
     
       <item>
         <title>在Github中搭建blog</title>
         <description>&lt;blockquote&gt;
-  &lt;p&gt;本文参考：http://jekyllcn.com/;  https://github.com/&lt;/p&gt;
+  &lt;p&gt;本文参考：&lt;a href=&quot;http://jekyllcn.com/&quot;&gt;http://jekyllcn.com/&lt;/a&gt;;  &lt;a href=&quot;https://github.com/&quot;&gt;https://github.com/&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;jeckyll&quot;&gt;1.搭建jeckyll环境&lt;/h2&gt;
@@ -80,9 +242,9 @@
 
 &lt;p&gt;&lt;img src=&quot;../images/8bd094c8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/e2dd0fdc.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/8bd094c8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/8bd094c8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../images/1e2ecc7e.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/1e2ecc7e.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -101,6 +263,8 @@
 &lt;p&gt;&lt;img src=&quot;../images/4014a2d7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/4014a2d7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(End)&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 01 Jul 2017 17:15:11 +0800</pubDate>
