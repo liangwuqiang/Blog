@@ -4,7 +4,7 @@ title:  "在Github中搭建blog"
 date:   2017-07-01 17:15:11 +0800
 categories: github
 ---
-> 本文参考：http://jekyllcn.com/;  https://github.com/
+> 本文参考：[http://jekyllcn.com/](http://jekyllcn.com/);  [https://github.com/](https://github.com/)
 
 ## 1.搭建jeckyll环境
 
