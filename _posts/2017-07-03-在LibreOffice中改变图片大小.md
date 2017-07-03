@@ -17,7 +17,6 @@ categories: ubuntu
 
 ## 3.脚本源代码
 
-```shell
 {% highlight ruby %}
 #!/bin/sh
 
@@ -39,4 +38,3 @@ xdotool key Return
 
 # ok
 {% endhighlight %}
-```
