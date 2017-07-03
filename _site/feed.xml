@@ -6,9 +6,56 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 03 Jul 2017 16:13:44 +0800</pubDate>
-    <lastBuildDate>Mon, 03 Jul 2017 16:13:44 +0800</lastBuildDate>
+    <pubDate>Mon, 03 Jul 2017 17:37:34 +0800</pubDate>
+    <lastBuildDate>Mon, 03 Jul 2017 17:37:34 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>在LibreOffice Writer中改变图片大小</title>
+        <description>&lt;h2 id=&quot;section&quot;&gt;1.与上篇类似部分不重复了&lt;/h2&gt;
+
+&lt;p&gt;2017-07-03-在LibreOffice中做高亮标记.md&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;2.脚本文件&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/981ddb91.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/981ddb91.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;3.脚本源代码&lt;/h2&gt;
+
+&lt;p&gt;```shell&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;### 这是个在libreOffice Writer下改变图片大小的脚本&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 弹出右键菜单&lt;/span&gt;
+xdotool click 3    &lt;span class=&quot;c&quot;&gt;# 点击鼠标左键，1表示左键，2表示中键，3表示右键&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 菜单选择，图片格式&lt;/span&gt;
+xdotool key I  &lt;span class=&quot;c&quot;&gt;# 按下i键&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 延迟&lt;/span&gt;
+sleep 1
+
+&lt;span class=&quot;c&quot;&gt;# 设置图片参数&lt;/span&gt;
+xdotool key alt+W  &lt;span class=&quot;c&quot;&gt;# 同时按下alt和w键&lt;/span&gt;
+xdotool &lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;6.5&quot;&lt;/span&gt;
+xdotool key Return
+
+&lt;span class=&quot;c&quot;&gt;# ok&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Jul 2017 17:12:08 +0800</pubDate>
+        <link>http://yourdomain.com/ubuntu/2017/07/03/%E5%9C%A8LibreOffice%E4%B8%AD%E6%94%B9%E5%8F%98%E5%9B%BE%E7%89%87%E5%A4%A7%E5%B0%8F.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/ubuntu/2017/07/03/%E5%9C%A8LibreOffice%E4%B8%AD%E6%94%B9%E5%8F%98%E5%9B%BE%E7%89%87%E5%A4%A7%E5%B0%8F.html</guid>
+        
+        
+        <category>ubuntu</category>
+        
+      </item>
     
       <item>
         <title>在LibreOffice Writer中快速高亮标记</title>
@@ -47,6 +94,26 @@
 &lt;p&gt;&lt;img src=&quot;../images/fb95e3ba.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/fb95e3ba.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;6.脚本源代码&lt;/h2&gt;
+
+&lt;p&gt;```shell&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;### 这是个在libreOffice Writer下对文本进行高亮标识的脚本&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 文本选择，当前光标所在的行&lt;/span&gt;
+xdotool key Home  &lt;span class=&quot;c&quot;&gt;# 按下Home键&lt;/span&gt;
+xdotool key &lt;span class=&quot;nb&quot;&gt;shift&lt;/span&gt;+End  &lt;span class=&quot;c&quot;&gt;# 同时按下shift和End键&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 鼠标点击，选择高亮图标&lt;/span&gt;
+xdotool mousemove 880 90  &lt;span class=&quot;c&quot;&gt;# 将鼠标移动到在屏幕上特定的X和Y坐标位置&lt;/span&gt;
+xdotool click 1  &lt;span class=&quot;c&quot;&gt;# 点击鼠标左键，1表示左键，2表示中键，3表示右键&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# ok&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;```&lt;/p&gt;
 </description>
         <pubDate>Mon, 03 Jul 2017 16:05:08 +0800</pubDate>
         <link>http://yourdomain.com/ubuntu/2017/07/03/%E5%9C%A8LibreOffice%E4%B8%AD%E5%81%9A%E9%AB%98%E4%BA%AE%E6%A0%87%E8%AE%B0.html</link>
