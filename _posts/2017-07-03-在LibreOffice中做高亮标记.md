@@ -43,7 +43,6 @@ sudo apt install xdotool
 
 ## 6.脚本源代码
 
-```shell
 {% highlight shell %}
 
 #!/bin/sh
@@ -60,4 +59,4 @@ xdotool click 1  # 点击鼠标左键，1表示左键，2表示中键，3表示�
 
 # ok
 {% endhighlight %}
-```
+
