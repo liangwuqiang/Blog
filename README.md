@@ -8,5 +8,5 @@
 
 [2017-07-01-在Github中搭建blog](_posts/2017-07-01-在Github中搭建blog.md)
 
-[2017-07-01-welcome-to-jekyll](_posts/2017-07-01-welcome-to-jekyll.markdown)
+[2017-07-01-welcome-to-jekyll](_posts/2017-07-01-welcome-to-jekyll.md)
 
