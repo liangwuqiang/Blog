@@ -18,7 +18,7 @@ categories: ubuntu
 ## 3.脚本源代码
 
 ```shell
-{% highlight ruby %}
+{% highlight shell %}
 #!/bin/sh
 
 ### 这是个在libreOffice Writer下改变图片大小的脚本
